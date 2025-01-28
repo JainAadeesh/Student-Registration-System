@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Student Registration System</h1>
+    <p class="subheading">Register student details, view, edit, and delete records easily.</p>
+    <div class="main-div">
+        <div class="inputs">
+            <form id="infoForm">
+                <label for="name">Student Name:</label><br>
+                <input type="text" id="name" required><br><br>
+                <label for="id">Student Id:</label><br>
+                <input type="id" id="id" required><br><br>
+                <label for="class">Email Id:</label><br>
+                <input type="text" id="class" required><br><br>
+                <label for="rollno">Contact No:</label><br>
+                <input type="text" id="rollno" required><br><br>
+                <button id="button" type="submit">Add</button><br>
+            </form>
+            
+        </div>
+        <div class="details">
+             <table>
+                <thead>
+                  <tr>
+                      <th>Student Name</th>
+                      <th>Student Id</th>
+                      <th>Email Id</th>
+                      <th>Contact No.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>1234</td>
+                        <td>aadijain</td>
+                        <td>1234567890</td>
+                    </tr>
+                </tbody>
+             </table>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
