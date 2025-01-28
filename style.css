@@ -22,8 +22,10 @@ body{
 
 .main-div{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 10rem;
 }
 
 .subheading{
@@ -71,9 +73,9 @@ table{
 
 th,td{
    padding: 1rem 1rem 1rem 1rem;
+   text-align: left;
 }
 
-tbody {
-    border: 1px solid rgb(167, 15, 15);
-    /* background-color: #a77dff; */
+.details{
+    margin: 5rem;
 }
