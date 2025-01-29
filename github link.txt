@@ -1,2 +1,0 @@
-Github link of my project 
-https://github.com/JainAadeesh/Student-Registration-System

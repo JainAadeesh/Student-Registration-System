@@ -1,4 +1,3 @@
-
 // Select form and table body
 const form = document.getElementById('infoForm');
 const tableBody = document.querySelector('table tbody');
